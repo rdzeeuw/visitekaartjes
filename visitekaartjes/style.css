@@ -1,0 +1,76 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Quicksans, sans-serif; 
+}
+
+.wrapper {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+}
+
+.card {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 270px;
+    height: auto;
+    align-items: space-between;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+.title h3{
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+.title p {
+    font-size: 0.8em;
+    color: grey;
+    opacity: 0.8;
+}
+
+
+
+.text {
+    font-size: 0.8em;
+    color: grey;
+    opacity: 0.8;
+    margin-bottom: 25px;;
+}
+
+.buttons {
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+#approve {
+    border: 2px solid rgb(103, 236, 103);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color:rgb(103, 236, 103);
+    background-color: white;
+    width: 50%;
+    padding: 6px;
+}
+
+#decline {
+    border: 2px solid rgb(223, 72, 72);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:rgb(223, 72, 72);
+    background-color: white;
+    width: 50%;
+}
